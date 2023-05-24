@@ -13,14 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benjaminscoding1/techlines.git"
+    "url": "git+https://github.com/sebiten/ecommerce"
   },
-  "author": "Benjamin Fischer",
+  "author": "Sebastian Burgos",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/benjaminscoding1/techlines/issues"
-  },
-  "homepage": "https://github.com/benjaminscoding1/techlines#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "concurrently": "^7.6.0",
@@ -29,5 +25,7 @@
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.9.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
