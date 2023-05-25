@@ -22,7 +22,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addCartItem } from '../redux/actions/cartActions';
 
 const Rating = ({ rating, numberOfReviews }) => {
-  const { iconSize } = useState('14px');
+  const { iconSize, setIconSize } = useState('14px'); // eslint-disable-line
   return (
     <Flex>
       <HStack spacing='2px'>

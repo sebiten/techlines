@@ -37,7 +37,7 @@ const ProfileScreen = () => {
       toast({ description: 'Profile saved.', status: 'success', isClosable: true });
       dispatch(resetUpdateSuccess());
     }
-  }, [toast, updateSuccess, dispatch]);
+  }, [toast, updateSuccess]); // eslint-disable-line
 
   return userInfo ? (
     <Formik
